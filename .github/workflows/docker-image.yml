@@ -19,4 +19,8 @@ jobs:
     steps:
     - uses:  actions/checkout@v4
     - name: Build the Docker image
-      run: docker build ubuntu-systemd --tag ubuntu-systemd:22.04
+      run: docker build ubuntu-systemd --tag ghcr.io/ILikeCoding65/ubuntu-systemd:22.04
+      
+    - name: Push the Docker image
+      run: docker push ghcr.io/ILikeCoding65/ubuntu-systemd:22.04
+
