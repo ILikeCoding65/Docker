@@ -44,6 +44,6 @@ jobs:
           context: ubuntu-systemd
           push: true
           tags: ghcr.io/ilikecoding65/ubuntu-systemd:22.04
-          platform: linux/amd64,linux/armhf,linux/armv7
+          platforms: linux/amd64,linux/armhf,linux/armv7
 #        labels: ${{ steps.meta.outputs.labels }}
 
