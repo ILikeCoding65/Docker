@@ -43,6 +43,6 @@ jobs:
         with:
           context: ubuntu-systemd
           push: true
-          tags: ubuntu-systemd:22.04
+          tags: ghcr.io/ilikecoding65/ubuntu-systemd:22.04
 #        labels: ${{ steps.meta.outputs.labels }}
 
