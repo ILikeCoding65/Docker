@@ -41,7 +41,7 @@ jobs:
         id: push
         uses: docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4
         with:
-          context: ubuntu-system
+          context: ubuntu-systemd
           push: true
           tags: ubuntu-systemd:22.04
 #        labels: ${{ steps.meta.outputs.labels }}
