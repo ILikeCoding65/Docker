@@ -45,5 +45,6 @@ jobs:
           push: true
           tags: ghcr.io/ilikecoding65/ubuntu-systemd:22.04
           platforms: linux/amd64,linux/armhf,linux/armv7
+          builder: docker-container
 #        labels: ${{ steps.meta.outputs.labels }}
 
