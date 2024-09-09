@@ -19,4 +19,4 @@ jobs:
     steps:
     - uses:  actions/checkout@v4
     - name: Build the Docker image
-      run: ls -l ; docker build . --file Dockerfile --tag ubuntu-systemd:22.04
+      run: ls -l ; docker build . --file ubuntu-systemd/Dockerfile --tag ubuntu-systemd:22.04
